@@ -1,0 +1,54 @@
+# =============================================================
+# Strong Family Press — .gitignore
+# The public repository must contain website files only.
+# =============================================================
+
+# --- MANUSCRIPT AND PRIVATE SOURCE MATERIAL -----------------
+# Keep every draft and reference document out of the public repo.
+# Put them in these folders on your computer and they can never be
+# committed by accident.
+Manuscript/
+Private/
+Reference/
+Drafts/
+
+# Manuscript files by name, in case they are ever saved loose
+7_Steps_Final.pdf
+7 Steps Final.pdf
+*Final.docx
+*manuscript*
+*Manuscript*
+
+# --- DOCUMENTS ----------------------------------------------
+# NOTE: *.pdf is deliberately NOT ignored. A sample chapter, a media
+# kit, or the lead magnet may need to be published from
+# Assets/downloads/. Word files are never published, so they are.
+*.docx
+*.doc
+*.pages
+
+# --- CREDENTIALS AND CONFIGURATION --------------------------
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# --- BUSINESS AND PERSONAL RECORDS --------------------------
+Contracts/
+Financial/
+Contacts/
+*.csv
+
+# --- OPERATING SYSTEM AND EDITOR ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# --- LOCAL BUILD OR PREVIEW ARTIFACTS -----------------------
+node_modules/
+.cache/
