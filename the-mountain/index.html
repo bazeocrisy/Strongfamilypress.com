@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<!-- Privacy: this page makes no network requests after loading its own files.
+     connect-src 'none' blocks any script from transmitting data (journal entries
+     stay in this browser's localStorage only). No analytics, fonts or CDNs. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'none'; font-src 'self'; form-action 'none'; base-uri 'none'; object-src 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex, nofollow">
+<title>The Mountain</title>
+<meta name="description" content="The Mountain: A Study of Moses. Less Noise. More Wisdom. Time with God. A private, nine-part guided devotional.">
+<meta name="theme-color" content="#1f3d2b" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1712" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="The Mountain">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="mountain.css">
+<script src="theme-init.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#app">Skip to content</a>
+<main id="app" tabindex="-1">
+  <noscript><p class="noscript">The Mountain needs JavaScript turned on to save your progress and journal on this device.</p></noscript>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="scripture.js"></script>
+<script src="study.js"></script>
+<script src="mountain.js"></script>
+</body>
+</html>
